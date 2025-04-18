@@ -19,10 +19,18 @@ This project combines **machine learning-based accident severity classification*
 
 ## 🧪 Getting Started
 
+
 ### Install requirements
 
 ```bash
+pip install streamlit pandas folium scikit-learn
+```
+
+### To run the web app
+
+```bash
 streamlit run app.py
+```
 
 
 
