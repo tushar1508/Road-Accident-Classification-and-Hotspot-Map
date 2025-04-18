@@ -28,7 +28,7 @@ if click_location and click_location["last_clicked"]:
     lon_click = click_location["last_clicked"]["lng"]
     st.success(f"You clicked at ({lat_click:.4f}, {lon_click:.4f})")
 
-    radius_km = 10
+    radius_km = 5
 
     def is_within_radius(row):
         accident_loc = (row["latitude"], row["longitude"])
