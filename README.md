@@ -13,7 +13,7 @@ This project combines **machine learning-based accident severity classification*
   Streamlit-based interactive map (`app.py`) where users can click on any UK region and view a heatmap of accident density around that area using weighted severity.
 
 - 📊 **Dataset**  
-  `accident_dataset_UK.csv`: A synthetic dataset simulating UK-based accident data with attributes like weather, road conditions, speed limits, and GPS coordinates.
+  `accident_dataset_UK.csv`:The dataset is derived from UK-road accident dataset 2008-2017 with attributes like weather, road conditions, speed limits, and GPS coordinates.
 
 ---
 
